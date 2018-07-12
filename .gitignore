@@ -1,0 +1,5 @@
+*.log
+yarn-debug.log*
+yarn-error.log*
+
+services/*/node_modules/

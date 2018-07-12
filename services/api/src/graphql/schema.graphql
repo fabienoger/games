@@ -1,0 +1,16 @@
+
+type Query {
+  games: [Game!]!
+}
+
+type Mutation {
+  createGame(name: String!, type: String!, author: String!): Boolean!
+}
+
+# Schema Types
+type Game {
+  id: String!
+  name: String!
+  type: String!
+  author: String!
+}
